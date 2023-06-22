@@ -1,6 +1,16 @@
 import "./App.css";
-import 
+import SignUp from "./SignUp";
+import LogIn from "./LogIn"
+import Home from "./Home"
 
-function App() {}
+function App() {
+  return (
+    <>
+      <SignUp />
+      {/* <LogIn/> */}
+      <Home/>
+    </>
+  );
+}
 
 export default App;
