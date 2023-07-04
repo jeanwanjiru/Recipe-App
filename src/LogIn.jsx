@@ -2,10 +2,10 @@ import React from "react";
 
 function LogIn() {
     return (
-        <div className=" mt-10 text-center text-2xl  leading-9 tracking-tight text-black-900">
+        <div className=" mt-10 text-center text-2xl  leading-9 tracking-tight text-white bg-black rounded-full ">
             <h1 className="text-xl font-bold">Log In</h1>
             <div>
-        <label className="block text-sm font-medium leading-6 mt-4">Email</label>
+        <label className="bock text-sm font-medium leading-6 mt-4">Email</label>
       </div>
       <div className="mt-3 flex justify-center " >
         <input
@@ -29,7 +29,7 @@ function LogIn() {
       <button type="button"className="mt-5 text-white bg-blue-500 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2">
 Log In
       </button>
-      <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-black-400">
+      <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-white">
       <p>Do not have an account? Sign Up</p>
       </div>
             

@@ -2,7 +2,7 @@ import React from "react";
 
 function SignUp() {
   return (
-    <div className=" mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black-900 bg-black" >
+    <div className=" mt-10 text-center text-2xl font-bold text-white bg-black" >
       <h1>SignUp</h1>
      <div>
         <label className="block text-sm font-medium leading-6 mt-4">Name</label>
@@ -41,7 +41,7 @@ function SignUp() {
       <button type="button"className="mt-5 text-white bg-blue-500 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2">
 Create Account
       </button>
-      <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-black-400">
+      <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-white">
       <h3>Already have an account? Log in</h3>
       </div>
     </div>
