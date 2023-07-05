@@ -42,7 +42,7 @@ function SignUp() {
 Create Account
       </button>
       <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-white">
-      <h3>Already have an account? Log in</h3>
+      <h3>Already have an account?<a href="">Log in</a></h3>
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ function LogIn() {
 Log In
       </button>
       <div className=" mt-10 text-center text-sm leading-9 tracking-tight text-white">
-      <p>Do not have an account? Sign Up</p>
+      <p>Do not have an account?<a href="">SignUp</a></p>
       </div>
             
         </div>
