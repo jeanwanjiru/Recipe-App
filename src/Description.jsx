@@ -2,31 +2,31 @@ import React from "react";
 
 export default function Description() {
   return (
-    <form action="" className="bg-gray-200 rounded-md w-30">
+    <form action="" className="bg-gray-200 rounded-md">
       <div>
         <img
           src="https://images.squarespace-cdn.com/content/v1/645c43cf9b528c7c1dc64983/1683771975242-111W4B21Q6GRCQV4HG8R/Crunchy+Ramen+and+Cabbage+Salad.jpeg?format=750w"
           alt=""
-          className="m-10 p-4"
+          className="m-10 p-4 w-50 h-50"
           
         />
         
       </div>
       <div>
-        <h3 className="text-center ">Ingridients</h3>
+        <h3 className="text-center ">Ingredients</h3>
         
           <p>
            1 package of ramen noodles (discard seasoning packet) <br />
            4cups of shredded green cabbage <br />
            1/2 cup of shredded carrots <br />
-           1/4 cupof chopped green onions <br />
+           1/4 cup of chopped green onions <br />
            1/4 cup of sliced almonds <br />
-           1/4 cup ofsunflower seeds <br />
+           1/4 cup of sunflower seeds <br />
            1/4 cup of rice vinegar <br />
             2 tablespoons of honey <br />
             2 tablespoons of vegetable oil <br />
             1 tablespoon of soy sauce <br />
-             1 garlicclove, minced <br />
+             1 garlic clove, minced <br />
              Salt and pepper to taste <br />
             </p>
             <h2 className="text-center">Instructions</h2>

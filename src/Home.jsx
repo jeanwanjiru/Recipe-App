@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
     <div>
-      <form
-        action=""
-        className="border rounded-lg mx-auto max-w-400px w-md p-8 px-8 bg-gray-200 w-md text-center justify-center align-center"
+      <div
+        
+        className="border rounded-lg mx-auto max-w-400px h-auto w-md p-8 px-8 bg-gray-200 w-md text-center justify-center align-center"
       >
         <h1 className="text-white ">Hello</h1>
         <h2 className="text-white">Would you like to cook today?</h2>
@@ -15,9 +15,9 @@ export default function Home() {
           className="border rounded-full p-2 mx-2"
         />
         <div className="m-10 text-center">
-          <button className="bg-white  m-10 ">Breakfast</button>
-          <button className="bg-white m-10  ">Lunch</button>
-          <button className="bg-white  m-10">Dinner</button>
+          <button type="submit" className="bg-white  m-10 ">Breakfast</button>
+          <button  type="submit"className="bg-white m-10  ">Lunch</button>
+          <button type="submit" className="bg-white  m-10">Dinner</button>
         </div>
         <div className=" m-10 flex">
           <img
@@ -59,7 +59,9 @@ export default function Home() {
             className="m-10"
           />
         </div>
-      </form>
+      </div>
     </div>
   );
-}
+};
+
+export default Home;
