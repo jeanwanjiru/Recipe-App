@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Description() {
   return (
-    <form action="" className="bg-gray-200 rounded-md">
+    <form action="" className="bg-gray-200  lg:w-1/2 ml-96 h-full rounded-md">
       <div>
         <img
           src="https://images.squarespace-cdn.com/content/v1/645c43cf9b528c7c1dc64983/1683771975242-111W4B21Q6GRCQV4HG8R/Crunchy+Ramen+and+Cabbage+Salad.jpeg?format=750w"
           alt=""
-          className="m-10 p-4 w-50 h-50"
+          className=" p-2 w-30 h-30"
           
         />
         

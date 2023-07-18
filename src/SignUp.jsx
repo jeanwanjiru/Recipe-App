@@ -6,7 +6,7 @@ const SignUp = () => {
     navigate("/Home");
   }
   return (
-    <div className=" mt-10 text-center text-2xl lg:w-1/4 ml-96 h-full font-bold text-black bg-gray-200">
+    <div className=" mt-10 text-center rounded-lg text-2xl lg:w-1/4 ml-96 h-full font-bold text-black bg-gray-200">
     
       <h1>SignUp</h1>
       <div>
@@ -45,7 +45,7 @@ const SignUp = () => {
       <button
         onClick={navigateHome}
         type="button"
-        className="mt-5 text-white bg-blue-500 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2"
+        className="mt-5 text-white bg-blue-200 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2"
       >
         Create Account
       </button>

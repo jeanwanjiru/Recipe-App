@@ -40,7 +40,7 @@ const LogIn = () => {
       <button
         onClick={navigateHome}
         type="submit"
-        className="mt-5 text-white bg-blue-500 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2"
+        className="mt-5 text-white bg-blue-200 text-sm rounded-full focus-outline-none font-medium px-5 py-3 text-center mr-2 mb-2"
       >
         Log In
       </button>
