@@ -1,21 +1,24 @@
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-const Instructions = () => {
-  const [item, setItem] = useState();
+const  Instructions = () => {
+  const [item,setItem] = useState();
   const { mealId } = useParams();
   if (mealId != "") {
     fetch(`https:/www.themealdb.com/api/json/v1/1/lookup.php?i=${mealId}`)
       .then((res) => res.json())
       .then((data) => {
-        setItem(data.meals[0]);
+        setItem (data.meals[0]);
       });
   }
-
+  const handleChange = (e) => {
+    e.preventDefault();
+  
+  };
   return (
     <>
-      (
-      <>
-        <div className="content">
+     (!item)?"":
+     (<>
+        <div onClick={handleChange} className="content">
           <img src={item.strMealThumb} alt="" />
           <div className="innerContent">
             <h1>{item.strMeal}</h1>
@@ -50,6 +53,10 @@ const Instructions = () => {
             <h4>
               {item.strIngredient8}:{item.strMeasure8}
             </h4>
+          </div>
+          <div className="instructions">
+            <h1>Instructions</h1>
+            <h4>{mealId.strInstructions}</h4>
           </div>
         </div>
       </>

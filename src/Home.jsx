@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
+import Instructions from "./Instructions";
 
 const Home = () => {
-  const [meals, setMeals] = useState([]); // Renamed 'Home' state variable to 'meals'
+  const [meals, setMeals] = useState([]); 
   const [searchQuery, setSearchQuery] = useState("");
   const [searchedMeals, setSearchedMeals] = useState([]);
 
@@ -30,26 +31,29 @@ const Home = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <button className="bg-blue-200 rounded-full px-3 py-2" onClick={handleSearch}>
+        <button
+          className="bg-blue-200 rounded-full px-3 py-2"
+          onClick={handleSearch}
+        >
           Search
         </button>
-        {/* Display images */}
+       
         <div className="flex  flex-wrap -mx-4 space-x-3  ">
-          {searchedMeals && searchedMeals.map((meals) => (
-            <img
-              key={meals.idMeal}
-              src={meals.strMealThumb}
-              alt={meals.strMeal}
-              style={{ width: "100px", height: "100px" }}
-            />
-          ))}
-              <p>{meals.strMeal}</p>
-            </div>
-
-          
+          {searchedMeals &&
+            searchedMeals.map((meals) => (
+              <img
+                key={meals.idMeal}
+                src={meals.strMealThumb}
+                alt={meals.strMeal}
+                style={{ width: "100px", height: "100px" }}
+              />
+            ))}
+          <p>{meals.strMeal}</p>
         </div>
       </div>
-    
+
+
+    </div>
   );
 };
 
